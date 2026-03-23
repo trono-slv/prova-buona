@@ -1861,7 +1861,327 @@
           { text: "Limitarsi allo stretto necessario nel proprio ruolo", correct: true },
           { text: "Parlare poco con tutti", correct: false }
         ]
-      }
+      },
+      {
+  question: "Quale articolo del GDPR elenca i principi applicabili al trattamento dei dati personali?",
+  explanation: "I principi del trattamento dei dati personali sono elencati nell'art. 5 del GDPR.",
+  options: [
+    { text: "Art. 6", correct: false },
+    { text: "Art. 5", correct: true },
+    { text: "Art. 13", correct: false },
+    { text: "Art. 32", correct: false }
+  ]
+},
+{
+  question: "Quale principio richiede che i dati siano raccolti per finalità determinate, esplicite e legittime?",
+  explanation: "È il principio di limitazione della finalità: i dati devono essere raccolti per scopi chiari e non usati poi in modo incompatibile.",
+  options: [
+    { text: "Esattezza", correct: false },
+    { text: "Minimizzazione dei dati", correct: false },
+    { text: "Limitazione della finalità", correct: true },
+    { text: "Integrità e riservatezza", correct: false }
+  ]
+},
+{
+  question: "Secondo il principio di minimizzazione, quali dati devono essere trattati?",
+  explanation: "Devono essere trattati solo i dati adeguati, pertinenti e limitati a quanto necessario rispetto allo scopo.",
+  options: [
+    { text: "Tutti i dati disponibili", correct: false },
+    { text: "Solo i dati adeguati, pertinenti e limitati a quanto necessario", correct: true },
+    { text: "Solo i dati richiesti verbalmente", correct: false },
+    { text: "I dati che potrebbero essere utili in futuro", correct: false }
+  ]
+},
+{
+  question: "Quale principio impone di mantenere i dati personali esatti e, se necessario, aggiornati?",
+  explanation: "Il principio di esattezza richiede che i dati inesatti siano corretti o aggiornati tempestivamente.",
+  options: [
+    { text: "Esattezza", correct: true },
+    { text: "Trasparenza", correct: false },
+    { text: "Accountability", correct: false },
+    { text: "Liceità", correct: false }
+  ]
+},
+{
+  question: "Conservare i dati personali per un tempo non superiore a quello necessario rispetto alle finalità del trattamento attiene a quale principio?",
+  explanation: "Questo è il principio di limitazione della conservazione: i dati non vanno tenuti oltre il necessario.",
+  options: [
+    { text: "Limitazione della conservazione", correct: true },
+    { text: "Correttezza", correct: false },
+    { text: "Minimizzazione", correct: false },
+    { text: "Trasparenza", correct: false }
+  ]
+},
+{
+  question: "Quale principio riguarda la protezione dei dati contro trattamenti non autorizzati o illeciti e contro perdita, distruzione o danno accidentali?",
+  explanation: "È il principio di integrità e riservatezza, che richiede adeguata sicurezza dei dati personali.",
+  options: [
+    { text: "Limitazione della finalità", correct: false },
+    { text: "Integrità e riservatezza", correct: true },
+    { text: "Esattezza", correct: false },
+    { text: "Portabilità", correct: false }
+  ]
+},
+{
+  question: "Cosa significa, in sintesi, il principio di accountability previsto dal GDPR?",
+  explanation: "Significa che il titolare deve rispettare i principi del GDPR ed essere anche in grado di dimostrarlo.",
+  options: [
+    { text: "Che l'interessato decide sempre ogni trattamento", correct: false },
+    { text: "Che il titolare deve solo dichiarare di rispettare il GDPR", correct: false },
+    { text: "Che il titolare deve rispettare i principi ed essere in grado di dimostrarlo", correct: true },
+    { text: "Che i dati possono essere trattati senza documentazione interna", correct: false }
+  ]
+},
+{
+  question: "Quale comportamento è più coerente con il principio di minimizzazione dei dati?",
+  explanation: "La minimizzazione richiede di raccogliere solo le informazioni davvero necessarie per lo scopo dichiarato.",
+  options: [
+    { text: "Chiedere solo le informazioni strettamente necessarie", correct: true },
+    { text: "Raccogliere sempre il maggior numero possibile di dati", correct: false },
+    { text: "Conservare moduli incompleti per ogni evenienza", correct: false },
+    { text: "Usare gli stessi dati per qualsiasi scopo futuro", correct: false }
+  ]
+},
+{
+  question: "Se un'organizzazione usa dati raccolti per una finalità amministrativa anche per un'altra finalità incompatibile, quale principio rischia di violare?",
+  explanation: "Usare i dati per scopi incompatibili con quelli iniziali contrasta con il principio di limitazione della finalità.",
+  options: [
+    { text: "Esattezza", correct: false },
+    { text: "Limitazione della finalità", correct: true },
+    { text: "Limitazione della conservazione", correct: false },
+    { text: "Integrità e riservatezza", correct: false }
+  ]
+},
+{
+  question: "Lasciare documenti con dati personali in vista su una scrivania accessibile a persone non autorizzate contrasta soprattutto con quale principio?",
+  explanation: "Esporre dati personali a persone non autorizzate compromette la sicurezza e la riservatezza del trattamento.",
+  options: [
+    { text: "Trasparenza", correct: false },
+    { text: "Minimizzazione", correct: false },
+    { text: "Integrità e riservatezza", correct: true },
+    { text: "Esattezza", correct: false }
+  ]
+},
+  {
+  question: "Un impiegato consulta la scheda di un cliente solo per curiosità, senza averne bisogno per il proprio lavoro. Quale comportamento corretto avrebbe dovuto tenere?",
+  explanation: "Il trattamento deve essere limitato a quanto necessario rispetto al ruolo e alla finalità lavorativa. Consultare dati per curiosità non è coerente con i principi di minimizzazione, correttezza e riservatezza.",
+  options: [
+    { text: "Consultare i dati solo se necessari per la propria mansione", correct: true },
+    { text: "Consultare i dati se il cliente non se ne accorge", correct: false },
+    { text: "Consultare i dati purché non vengano stampati", correct: false },
+    { text: "Consultare i dati se lo fanno anche altri colleghi", correct: false }
+  ]
+},
+{
+  question: "Alla reception viene chiesto un numero di telefono per una semplice consegna documentale, ma l'operatore chiede anche informazioni non necessarie. Qual è il comportamento conforme al GDPR?",
+  explanation: "Il principio di minimizzazione richiede di raccogliere solo i dati adeguati, pertinenti e limitati a quanto necessario per lo scopo.",
+  options: [
+    { text: "Raccogliere quanti più dati possibile per utilizzi futuri", correct: false },
+    { text: "Chiedere solo i dati strettamente necessari alla consegna", correct: true },
+    { text: "Chiedere dati aggiuntivi per completezza amministrativa generale", correct: false },
+    { text: "Raccogliere dati extra purché restino interni", correct: false }
+  ]
+},
+{
+  question: "Un modulo raccolto per finalità amministrative viene poi usato per inviare comunicazioni non collegate allo scopo iniziale. Quale principio è messo più direttamente a rischio?",
+  explanation: "I dati devono essere raccolti per finalità determinate, esplicite e legittime e non utilizzati successivamente in modo incompatibile con tali finalità.",
+  options: [
+    { text: "Esattezza", correct: false },
+    { text: "Limitazione della finalità", correct: true },
+    { text: "Limitazione della conservazione", correct: false },
+    { text: "Portabilità", correct: false }
+  ]
+},
+{
+  question: "Un operatore si accorge che l'indirizzo email di un utente è errato ma decide di non aggiornarlo. Quale principio viene trascurato?",
+  explanation: "Il principio di esattezza richiede che i dati personali siano esatti e, se necessario, aggiornati.",
+  options: [
+    { text: "Esattezza", correct: true },
+    { text: "Trasparenza", correct: false },
+    { text: "Minimizzazione", correct: false },
+    { text: "Liceità", correct: false }
+  ]
+},
+{
+  question: "Documenti cartacei con dati personali vengono lasciati sulla stampante condivisa per diverse ore. Qual è il rischio principale rispetto ai principi GDPR?",
+  explanation: "Lasciare documenti accessibili a soggetti non autorizzati compromette integrità e riservatezza del trattamento.",
+  options: [
+    { text: "Si viola soprattutto il principio di integrità e riservatezza", correct: true },
+    { text: "Si viola solo il principio di esattezza", correct: false },
+    { text: "Non c'è problema se i documenti non sono firmati", correct: false },
+    { text: "È consentito se l'ufficio è interno", correct: false }
+  ]
+},
+{
+  question: "Un ufficio conserva vecchi moduli con dati personali per anni, anche se non servono più. Quale principio suggerisce di eliminarli o archiviarli secondo regole definite?",
+  explanation: "I dati devono essere conservati per un arco di tempo non superiore al conseguimento delle finalità per cui sono trattati.",
+  options: [
+    { text: "Correttezza", correct: false },
+    { text: "Limitazione della conservazione", correct: true },
+    { text: "Trasparenza", correct: false },
+    { text: "Esattezza", correct: false }
+  ]
+},
+{
+  question: "Un collega invia una email con dati personali al destinatario sbagliato perché ha selezionato il contatto errato in rubrica. Quale buona pratica è più coerente con il GDPR?",
+  explanation: "Le misure organizzative e tecniche devono ridurre il rischio di accesso o comunicazione non autorizzata. Controllare con attenzione i destinatari tutela riservatezza e sicurezza del trattamento.",
+  options: [
+    { text: "Inviare rapidamente per non rallentare il lavoro", correct: false },
+    { text: "Verificare sempre destinatari e contenuto prima dell'invio", correct: true },
+    { text: "Scrivere meno dati ma a chiunque serva", correct: false },
+    { text: "Usare la rubrica automatica senza controlli", correct: false }
+  ]
+},
+{
+  question: "Un addetto chiede a un utente: 'Mi lasci anche altri dati, potrebbero servirci in futuro'. Perché questo approccio non è corretto?",
+  explanation: "Raccogliere dati 'perché potrebbero servire' non è coerente con il principio di minimizzazione e con la necessità di definire finalità specifiche del trattamento.",
+  options: [
+    { text: "Perché i dati vanno raccolti solo se già pubblici", correct: false },
+    { text: "Perché i dati vanno chiesti solo in formato cartaceo", correct: false },
+    { text: "Perché si devono raccogliere solo i dati necessari per uno scopo definito", correct: true },
+    { text: "Perché non si possono mai chiedere dati di contatto", correct: false }
+  ]
+},
+{
+  question: "Un utente non capisce perché i suoi dati vengano richiesti e l'operatore risponde in modo generico e confuso. Quale principio richiede informazioni chiare e comprensibili?",
+  explanation: "Il principio di trasparenza impone che l'interessato riceva informazioni chiare, intelligibili e accessibili sul trattamento dei dati.",
+  options: [
+    { text: "Trasparenza", correct: true },
+    { text: "Limitazione della conservazione", correct: false },
+    { text: "Esattezza", correct: false },
+    { text: "Minimizzazione", correct: false }
+  ]
+},
+{
+  question: "L'organizzazione afferma di rispettare il GDPR, ma non ha procedure, istruzioni o evidenze che lo dimostrino. Quale principio è coinvolto più direttamente?",
+  explanation: "Il principio di accountability richiede non solo di rispettare i principi del GDPR, ma anche di essere in grado di dimostrarlo.",
+  options: [
+    { text: "Accountability o responsabilizzazione", correct: true },
+    { text: "Portabilità", correct: false },
+    { text: "Anonimizzazione", correct: false },
+    { text: "Opposizione", correct: false }
+  ]
+},
+{
+  question: "Durante una telefonata, un operatore comunica dati personali a una persona senza aver verificato che sia autorizzata a riceverli. Quale principio viene compromesso più chiaramente?",
+  explanation: "Comunicare dati a soggetti non autorizzati compromette la riservatezza del trattamento e richiede maggiore cautela operativa.",
+  options: [
+    { text: "Integrità e riservatezza", correct: true },
+    { text: "Esattezza", correct: false },
+    { text: "Limitazione della finalità", correct: false },
+    { text: "Minimizzazione", correct: false }
+  ]
+},
+{
+  question: "Un dipendente usa la stessa password semplice per tutti gli applicativi aziendali che contengono dati personali. Quale area di conformità GDPR viene toccata più direttamente?",
+  explanation: "L'adozione di misure adeguate di sicurezza è collegata alla tutela di integrità e riservatezza dei dati personali.",
+  options: [
+    { text: "Sicurezza del trattamento e integrità/riservatezza", correct: true },
+    { text: "Solo trasparenza verso l'interessato", correct: false },
+    { text: "Solo limitazione della finalità", correct: false },
+    { text: "Nessuna, se la password viene ricordata a memoria", correct: false }
+  ]
+},
+   {
+  question: "Un collega vede sul monitor dati personali lasciati aperti mentre l'operatore si allontana dalla postazione. Qual è il comportamento più corretto?",
+  explanation: "Lasciare dati visibili a persone non autorizzate mette a rischio la riservatezza. È corretto bloccare la sessione o chiudere l'accesso ai dati quando ci si allontana.",
+  options: [
+    { text: "Lasciare tutto aperto se ci si assenta per poco", correct: false },
+    { text: "Bloccare la postazione prima di allontanarsi", correct: true },
+    { text: "Chiedere ai colleghi di non guardare", correct: false },
+    { text: "Ridurre la luminosità dello schermo", correct: false }
+  ]
+},
+{
+  question: "Un dipendente riceve per errore via email un file con dati personali che non dovrebbe vedere. Qual è la prima azione più corretta?",
+  explanation: "Quando si ricevono dati non pertinenti o non autorizzati, occorre evitare ulteriori trattamenti indebiti e informare subito il referente interno o il responsabile previsto dalle procedure.",
+  options: [
+    { text: "Conservare il file nel caso serva in futuro", correct: false },
+    { text: "Inoltrarlo ai colleghi per capire di chi sia", correct: false },
+    { text: "Segnalare subito l'errore secondo le procedure interne", correct: true },
+    { text: "Stampare il file per archiviarlo", correct: false }
+  ]
+},
+{
+  question: "Allo sportello un utente chiede informazioni sul fascicolo di un'altra persona sostenendo di essere un parente. Cosa dovrebbe fare l'operatore?",
+  explanation: "I dati personali non vanno comunicati senza adeguata verifica del titolo o dell'autorizzazione del richiedente. La sola dichiarazione verbale non basta.",
+  options: [
+    { text: "Fornire le informazioni se il tono della richiesta appare credibile", correct: false },
+    { text: "Comunicare solo i dati meno sensibili", correct: false },
+    { text: "Verificare prima identità e legittimazione alla richiesta", correct: true },
+    { text: "Fornire tutto purché non venga rilasciata copia scritta", correct: false }
+  ]
+},
+{
+  question: "In una chat di lavoro viene condivisa la foto di un documento contenente dati personali, anche se bastava comunicare solo il numero pratica. Quale principio è stato trascurato?",
+  explanation: "Se per svolgere l'attività bastava un'informazione più limitata, condividere l'intero documento non è coerente con la minimizzazione dei dati.",
+  options: [
+    { text: "Minimizzazione dei dati", correct: true },
+    { text: "Esattezza", correct: false },
+    { text: "Portabilità", correct: false },
+    { text: "Diritto di opposizione", correct: false }
+  ]
+},
+{
+  question: "Un ufficio utilizza un modulo vecchio che chiede ancora dati non più necessari al servizio. Cosa dovrebbe fare?",
+  explanation: "I moduli devono essere aggiornati e richiedere solo dati pertinenti e necessari rispetto alla finalità attuale del trattamento.",
+  options: [
+    { text: "Continuare a usare il modulo per uniformità interna", correct: false },
+    { text: "Aggiornare il modulo eliminando i dati non necessari", correct: true },
+    { text: "Lasciare i campi ma renderli facoltativi senza valutazioni", correct: false },
+    { text: "Aggiungere altri campi per completezza", correct: false }
+  ]
+},
+{
+  question: "Un operatore trova in archivio copie di documenti personali riferite a pratiche chiuse da anni e prive di una chiara regola di conservazione. Quale verifica è più corretta?",
+  explanation: "Occorre verificare i tempi di conservazione applicabili e la base organizzativa del mantenimento, perché i dati non devono essere conservati più del necessario.",
+  options: [
+    { text: "Mantenere tutto a tempo indeterminato per sicurezza", correct: false },
+    { text: "Eliminare subito tutto senza alcuna verifica", correct: false },
+    { text: "Verificare i tempi di conservazione previsti e agire di conseguenza", correct: true },
+    { text: "Trasferire tutto in un armadio diverso", correct: false }
+  ]
+},
+{
+  question: "Prima di inviare una comunicazione collettiva via email a più utenti esterni, quale attenzione pratica è più importante per evitare una divulgazione impropria degli indirizzi?",
+  explanation: "La protezione dei destinatari nelle comunicazioni multiple è una misura pratica collegata alla riservatezza del trattamento.",
+  options: [
+    { text: "Scrivere un oggetto molto generico", correct: false },
+    { text: "Usare modalità che non espongano gli indirizzi a tutti i destinatari", correct: true },
+    { text: "Inviare l'email da un account personale", correct: false },
+    { text: "Allegare meno file possibile", correct: false }
+  ]
+},
+{
+  question: "Un interessato chiede perché vengano raccolti alcuni suoi dati, ma l'operatore risponde: 'Sono richiesti dal sistema' senza altre spiegazioni. Perché la risposta non è adeguata?",
+  explanation: "Le informazioni sul trattamento devono essere fornite in modo chiaro e comprensibile; una risposta vaga non soddisfa il principio di trasparenza.",
+  options: [
+    { text: "Perché bisogna sempre rispondere solo per iscritto", correct: false },
+    { text: "Perché il sistema informatico non può motivare la raccolta", correct: false },
+    { text: "Perché l'interessato deve ricevere informazioni chiare sul trattamento", correct: true },
+    { text: "Perché non si devono mai spiegare le finalità", correct: false }
+  ]
+},
+{
+  question: "Un dipendente salva sul proprio dispositivo personale file di lavoro contenenti dati personali per comodità. Quale criticità emerge più chiaramente?",
+  explanation: "L'uso di dispositivi personali senza adeguate misure e autorizzazioni può compromettere sicurezza, controllo e riservatezza dei dati trattati.",
+  options: [
+    { text: "Solo un problema di ordine dei file", correct: false },
+    { text: "Un rischio per integrità e riservatezza del trattamento", correct: true },
+    { text: "Nessun problema se il dipendente è affidabile", correct: false },
+    { text: "Solo una questione di velocità operativa", correct: false }
+  ]
+},
+{
+  question: "L'organizzazione afferma che il personale è formato sulla protezione dei dati, ma non conserva istruzioni, registrazioni o procedure. Quale aspetto del GDPR risulta più debole?",
+  explanation: "Non basta dichiarare di rispettare le regole: bisogna poter dimostrare il rispetto dei principi tramite misure, procedure ed evidenze.",
+  options: [
+    { text: "Il principio di accountability o responsabilizzazione", correct: true },
+    { text: "Solo il diritto di rettifica", correct: false },
+    { text: "Solo il principio di esattezza", correct: false },
+    { text: "Il principio di libera circolazione dei dati", correct: false }
+  ]
+}
     ];
 
     let currentLessonIndex = 0;
